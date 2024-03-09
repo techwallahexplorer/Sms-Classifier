@@ -21,16 +21,6 @@ To get started, make sure you have:
 ```bash
 git clone https://github.com/techwallahexplorer/Spam-or-Ham.git
 Install necessary libraries:
-bash
-
 pip install -r requirements.txt
 Run the Jupyter Notebook or Python script:
-bash
-
 jupyter notebook sms-classifier.ipynb
-Follow the instructions provided in the notebook/script to preprocess data, train models, and evaluate performance.
-<span style="color:green">File Structure</span>
-sms-classifier.ipynb: Jupyter Notebook containing the project code.
-spam_or_not_spam.csv: Dataset with labeled SMS messages.
-README.md: Detailed documentation offering project overview, usage guidelines, and file structure.
-requirements.txt: Text file listing required libraries and their versions.
