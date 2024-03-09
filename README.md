@@ -19,7 +19,7 @@ This project aims to classify SMS messages as either spam or not spam using vari
 1. Clone the repository:
 
 ```
-git clone https://github.com/SyedFahad7/Spam-or-Ham.git
+git clone https://github.com/techwallahexplorer/Spam-or-Ham.git
 ```
 
 2. Install the required libraries:
@@ -43,11 +43,6 @@ jupyter notebook sms-classifier.ipynb
 - `requirements.txt`: Text file listing all the required libraries and their versions.
 
 ## <span style="color:green">Author</span>
-[Your Name](https://github.com/your-username)
+techwallahexplorer
 
-## <span style="color:green">License</span>
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-Feel free to further customize the colors or style according to your preferences!
