@@ -1,48 +1,36 @@
-# <span style="color:yellow">Spam Classification Project</span>
+# <span style="color:yellow">SMS Classifier Project</span>
 
-## <span style="color:green">Overview</span>
-This project aims to classify SMS messages as either spam or not spam using various machine learning models. The dataset used in this project contains labeled SMS messages indicating whether they are spam or not spam.
+## <span style="color:green">Project Overview</span>
+Welcome to our SMS Classifier Project! The main goal here is to distinguish between spam and non-spam (ham) messages using various machine learning techniques. Our dataset is pre-labeled, making it perfect for training and testing our models.
 
 ## <span style="color:green">Features</span>
-- <span style="color:orange">Data preprocessing</span>: The SMS messages are preprocessed to remove noise and irrelevant information.
-- <span style="color:orange">Exploratory Data Analysis (EDA)</span>: Various visualizations are used to analyze the distribution of spam and not spam messages.
-- <span style="color:orange">Feature Engineering</span>: Additional features such as the number of characters, words, and sentences are extracted from the SMS messages.
-- <span style="color:orange">Model Building</span>: Several machine learning models such as Naive Bayes, Logistic Regression, Support Vector Machines (SVM), Random Forest, etc., are trained and evaluated.
-- <span style="color:orange">Model Improvement</span>: Techniques such as hyperparameter tuning and ensemble methods like Voting Classifier are employed to improve model performance.
-- <span style="color:orange">Saving the Model</span>: The trained model and vectorizer used for feature extraction are saved for future use.
+- <span style="color:orange">Data Preprocessing</span>: We clean up the SMS messages, removing noise and irrelevant information to improve model accuracy.
+- <span style="color:orange">Exploratory Data Analysis (EDA)</span>: Dive into the data with insightful visualizations to understand the distribution of spam vs. ham messages.
+- <span style="color:orange">Feature Engineering</span>: Extract useful features like character count, word count, and sentence count from the SMS messages.
+- <span style="color:orange">Model Building</span>: Train and evaluate various models including Naive Bayes, Logistic Regression, SVM, Random Forest, and more.
+- <span style="color:orange">Model Improvement</span>: Utilize techniques like hyperparameter tuning and ensemble methods to enhance model performance.
+- <span style="color:orange">Saving the Model</span>: Save the trained model and vectorizer for future use, ensuring seamless integration into other projects.
 
 ## <span style="color:green">Requirements</span>
-- Python 3.x
-- Libraries: numpy, pandas, matplotlib, seaborn, nltk, scikit-learn, xgboost, wordcloud
+To get started, make sure you have:
+- Python 3.x installed
+- Required libraries: numpy, pandas, matplotlib, seaborn, nltk, scikit-learn, xgboost, wordcloud
 
 ## <span style="color:green">Usage</span>
 1. Clone the repository:
-
-```
+```bash
 git clone https://github.com/techwallahexplorer/Spam-or-Ham.git
-```
+Install necessary libraries:
+bash
 
-2. Install the required libraries:
-
-```
 pip install -r requirements.txt
-```
+Run the Jupyter Notebook or Python script:
+bash
 
-3. Run the Jupyter Notebook or Python script:
-
-```
 jupyter notebook sms-classifier.ipynb
-```
-
-4. Follow the instructions in the notebook/script to preprocess the data, train the models, and evaluate their performance.
-
-## <span style="color:green">File Structure</span>
-- `sms-classifier.ipynb`: Jupyter Notebook containing the project code.
-- `spam_or_not_spam.csv`: Dataset containing labeled SMS messages.
-- `README.md`: Documentation providing an overview of the project, usage instructions, and file structure.
-- `requirements.txt`: Text file listing all the required libraries and their versions.
-
-## <span style="color:green">Author</span>
-techwallahexplorer
-
-
+Follow the instructions provided in the notebook/script to preprocess data, train models, and evaluate performance.
+<span style="color:green">File Structure</span>
+sms-classifier.ipynb: Jupyter Notebook containing the project code.
+spam_or_not_spam.csv: Dataset with labeled SMS messages.
+README.md: Detailed documentation offering project overview, usage guidelines, and file structure.
+requirements.txt: Text file listing required libraries and their versions.
